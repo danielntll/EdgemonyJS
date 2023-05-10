@@ -1,0 +1,32 @@
+:root {
+  --color-primary: #ef9730;
+  --color-secondary: #f85825;
+  --color-tertiary: #f8c425;
+
+  --color-light: #ebebeb;
+  --color-medium: #777777;
+  --color-dark: #303030;
+
+  --color-danger: #d43702;
+}
+
+* {
+  color: #ebebeb;
+}
+
+.calc-firstNumber {
+}
+.calc-operator {
+  color: var(--color-primary);
+}
+.calc-secondNumber {
+}
+
+.calc-output {
+  color: var(--color-primary);
+}
+
+.alert-toast {
+  background-color: var(--color-danger);
+  color: var(--color-light);
+}

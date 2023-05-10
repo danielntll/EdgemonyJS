@@ -1,0 +1,44 @@
+@import "colors.css";
+@import "button.css";
+@import "calc.css";
+@import "font.css";
+@import "animations.css";
+
+:root {
+  --border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(750deg, #313131, #222222);
+}
+
+main {
+  padding: 20px;
+}
+
+.display-none {
+  display: none;
+}
+
+.alert-toast {
+  opacity: 0;
+  position: absolute;
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  top: 40px;
+  border-radius: var(--border-radius);
+  animation: show 2s ease-in-out;
+}
+
+.info {
+  padding-top: 25px;
+}

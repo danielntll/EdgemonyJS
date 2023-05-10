@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcolatrice</title>
+
+    <script src="./JS/script.js" type="module"></script>
+    <link rel="stylesheet" href="./CSS/global.css" />
+  </head>
+  <body>
+    <main>
+      <div class="calc-result">
+        <div class="calc-input">
+          <div class="calc-firstNumber"></div>
+          <div class="calc-operator"></div>
+          <div class="calc-secondNumber"></div>
+        </div>
+        <div class="calc-output display-none"></div>
+      </div>
+      <div class="calc-container">
+        <div class="container v-light">+</div>
+        <div class="container v-light">-</div>
+        <div class="container v-light">/</div>
+        <div class="container v-light">*</div>
+        <!--  -->
+        <div class="container v-dark">1</div>
+        <div class="container v-dark">2</div>
+        <div class="container v-dark">3</div>
+        <div class="container v-primary result">=</div>
+        <!--  -->
+        <div class="container v-dark">4</div>
+        <div class="container v-dark">5</div>
+        <div class="container v-dark">6</div>
+        <div class="container v-secondary reset">C</div>
+        <!--  -->
+        <div class="container v-dark">8</div>
+        <div class="container v-dark">9</div>
+        <div class="container v-dark">0</div>
+        <div class="container v-dark">.</div>
+      </div>
+
+      <div class="message display-none"></div>
+      <div class="info">
+        <p>You can use Numpad. "Backspace" to delete.</p>
+      </div>
+    </main>
+  </body>
+</html>
