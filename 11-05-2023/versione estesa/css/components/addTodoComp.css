@@ -1,0 +1,44 @@
+:root {
+  --comp-addTodo-w: 80px;
+  --comp-addTodo-h: 80px;
+}
+
+.comp-addTodo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.comp-addTodo-folder {
+  width: var(--comp-addTodo-w);
+  height: var(--comp-addTodo-h);
+  background-color: rgb(68, 68, 68);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+.comp-addTodo-folder img {
+  width: 38px;
+  margin-top: 5px;
+}
+.comp-addTodo-folder p {
+  width: 90%;
+  margin: 0;
+  font-size: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50%;
+}
+
+.folder-selected {
+  border: inset 2px;
+  width: var(--comp-addTodo-w) - 2;
+  height: var(--comp-addTodo-h) - 2;
+}
