@@ -1,0 +1,15 @@
+.btn-addTodo {
+  margin-top: 25px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  border-width: 0;
+  width: 300px;
+  background-color: var(--color-secondary);
+}
+
+.btn-todo {
+  width: 100%;
+  border-radius: 5px;
+  border-width: 0;
+  margin-bottom: 3px;
+}

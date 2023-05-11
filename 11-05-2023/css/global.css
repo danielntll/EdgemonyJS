@@ -1,0 +1,45 @@
+/* global variables */
+@import "./font.css";
+@import "./colors.css";
+
+@import "./animations/hover.css";
+
+/* componets */
+@import "./components/folderComp.css";
+@import "./components/addTodoComp.css";
+@import "./components/input.css";
+@import "./components/button.css";
+@import "./components/todo.css";
+
+/* root */
+:root {
+  --border-radius: 20px;
+}
+
+body {
+  padding: 25px;
+  background-color: var(--color-dark);
+}
+
+.main-folder-section {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.addTodoSection {
+  width: 100%;
+  /* height: ; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-none {
+  display: none;
+  transition: display 0.5s ease-in;
+}
+
+.display {
+  display: block;
+}
