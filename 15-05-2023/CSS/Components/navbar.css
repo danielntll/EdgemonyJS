@@ -1,0 +1,146 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 999;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100vw;
+  background-color: var(--color-black);
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+
+.navbar__logo {
+  width: 180px;
+}
+
+.navbar__menu img {
+  width: 32px;
+  filter: invert(66%) sepia(57%) saturate(480%) hue-rotate(8deg) brightness(94%)
+    contrast(94%);
+}
+
+.navbar__dx {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__cart {
+  position: relative;
+}
+
+.navbar__cart_counter {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: var(--color-tertiary);
+  z-index: 1;
+  right: 0px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__cart_counter_data {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar__cart img {
+  width: 32px;
+  filter: invert(66%) sepia(57%) saturate(480%) hue-rotate(8deg) brightness(94%)
+    contrast(94%);
+}
+
+/* --------------- CARRELLO ----------- */
+.navbar__cart_view {
+  display: none;
+  width: 100%;
+  justify-content: flex-end;
+  right: 0;
+  position: absolute;
+  top: 80px;
+  background-color: rgb(66, 66, 66);
+  z-index: 999;
+}
+
+.navbar__cart_view ul {
+  padding: 0;
+  margin: 15px 25px 15px 25px;
+}
+.navbar__cart_view li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0 5px 0;
+}
+.navbar_cart_view_text_container {
+  width: 60%;
+  margin-left: 15px;
+}
+.navbar_cart_product_name {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 0;
+}
+.navbar_cart_product_price {
+  margin-top: 5px;
+}
+.btn_navbar_cart_remove {
+  width: 32px;
+  height: 32px;
+  filter: invert(66%) sepia(57%) saturate(480%) hue-rotate(8deg) brightness(94%)
+    contrast(94%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn_navbar_cart_remove img {
+  width: 16px;
+  height: 16px;
+}
+.navbar_cart_view_image_container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.navbar_cart_view_image_container img {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* --------------- MENU ----------- */
+.navbar_links {
+  z-index: 999;
+  display: none;
+  margin-top: 200px;
+  justify-content: flex-end;
+  right: 0;
+  padding: 0 24px 0 24px;
+  position: absolute;
+  background-color: rgb(66, 66, 66);
+}
+
+.navbar_links ul {
+  padding: 0;
+  list-style-type: none;
+}
+.navbar_links li {
+  padding-bottom: 15px;
+}
+
+.navbar_links ul li a {
+  text-decoration: none;
+}
