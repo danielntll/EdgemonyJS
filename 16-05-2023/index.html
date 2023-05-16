@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Commerce</title>
+    <link rel="stylesheet" href="./CSS/global.css" />
+    <script src="./JS/script.js" type="module"></script>
+    <script src="./JS/Utils/DOM.js" type="module"></script>
+    <script src="./JS/Utils/navbar.js" type="module"></script>
+    <script src="./JS/Utils/cart.js" type="module"></script>
+    <script src="./JS/Utils/products.js" type="module"></script>
+    <script src="./JS/Utils/modalProduct.js" type="module"></script>
+  </head>
+  <body>
+    <main>
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <img
+          class="navbar__logo"
+          src="./Assets/logo-phoneCommerceEmpty.png"
+          alt="logo phone commerce"
+        />
+        <div class="navbar_links">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Contatti</a></li>
+            <li><a href="/">About</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar__cart_view">
+          <ul class="cart_list"></ul>
+        </div>
+
+        <div class="navbar__dx">
+          <a class="navbar__cart">
+            <div class="navbar__cart_counter">
+              <p class="navbar__cart_counter_data">0</p>
+            </div>
+            <img src="./Assets/cart.png" alt="" srcset="" />
+          </a>
+
+          <a class="navbar__menu">
+            <img src="./Assets/hamburger.png" alt="menu hamburger" />
+          </a>
+        </div>
+      </div>
+
+      <!-- HERO -->
+
+      <div class="hero">
+        <img
+          src="https://cdn.mobilesyrup.com/wp-content/uploads/2020/12/all-the-phones-wm.jpg"
+          alt="hero image"
+        />
+        <div class="hero__content">
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <button>Explore more</button>
+        </div>
+      </div>
+
+      <div class="searchbar">
+        <input
+          type="text"
+          placeholder="Cerca per nome, descrizione, rating o prezzo"
+          name="searchbar"
+          class="searchbarInput"
+        />
+      </div>
+
+      <!-- FILTERS -->
+      <div class="filtersWrap">
+        <h3>Filter by:</h3>
+        <div class="filters"></div>
+      </div>
+
+      <!-- ROOT CONTENT -->
+      <div id="root">
+        <div class="root-content"></div>
+      </div>
+    </main>
+  </body>
+</html>
