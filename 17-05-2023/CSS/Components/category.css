@@ -1,0 +1,22 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.category {
+  margin: 2px 5px;
+  min-width: 100px;
+  height: 30px;
+  background-color: var(--color-gray-200);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+.category p {
+  text-align: center;
+  width: 100%;
+  margin: 2px 5px;
+}
