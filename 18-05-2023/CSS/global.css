@@ -1,0 +1,42 @@
+/* Imports */
+@import "./normalize.css";
+@import "./fonts.css";
+@import "./colors.css";
+
+/* Components */
+@import "./Components/navbar.css";
+@import "./Components/hero.css";
+@import "./Components/productsContainer.css";
+@import "./Components/productDettail.css";
+@import "./Components/filters.css";
+@import "./Components/searchbar.css";
+@import "./Components/alert.css";
+@import "./Components/category.css";
+
+/* Root */
+:root {
+  --border-radius: 10px;
+}
+
+/* Generic */
+* {
+}
+
+body {
+  min-height: 100vh;
+  margin: 0 50px;
+}
+
+main {
+  min-height: 100vh;
+}
+.root-content h2 {
+  margin: 0;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 0 24px;
+  }
+}
