@@ -1,0 +1,40 @@
+.accessContainer {
+  margin: auto;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.accessContainer form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+}
+.accessInput {
+  width: 250px;
+  border: 0;
+  border-radius: var(--border-radius);
+  padding-left: 50px;
+  height: 40px;
+  position: static;
+  color: var(--color-secondary);
+}
+
+.accessButton {
+  border: 0;
+  border-radius: var(--border-radius);
+  height: 40px;
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+}
+
+.formIcon {
+  width: 30px;
+  position: absolute;
+  margin: 5px;
+  margin-left: 10px;
+}
