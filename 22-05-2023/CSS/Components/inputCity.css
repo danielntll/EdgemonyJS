@@ -1,0 +1,38 @@
+.inputContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputCity {
+  width: 90%;
+  height: 40px;
+
+  border-radius: var(--border-radius);
+  border: 2px solid var(--color-primary);
+  padding: 0 0 0 15px;
+}
+.inputCity:focus {
+  border: 2px solid var(--color-primary);
+}
+
+.searchButton {
+  padding: 5px;
+  border: 0;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.searchButtonIcon {
+  width: 32px;
+  align-items: center;
+}
+
+.searchButton:hover {
+  padding: 3px;
+  border-radius: 5px;
+  border: 2px solid var(--color-primary);
+}

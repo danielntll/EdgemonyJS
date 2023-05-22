@@ -1,0 +1,22 @@
+/* IMPORTS */
+@import "./fonts.css";
+@import "./colors.css";
+/* components */
+@import "./Components/header.css";
+@import "./Components/today.css";
+@import "./Components/days.css";
+@import "./Components/cityInfo.css";
+@import "./Components/inputCity.css";
+
+/* GLOBAL STYLE */
+:root {
+  --border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0 20px;
+}

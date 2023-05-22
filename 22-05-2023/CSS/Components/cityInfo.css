@@ -1,0 +1,50 @@
+.cityInfo {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.generalImage {
+  width: 100px;
+  border-radius: var(--border-radius);
+}
+
+.cityInfo h2 {
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 40px;
+  color: var(--color-primary);
+}
+
+.gridInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 40px;
+  gap: 5px;
+}
+
+.infoCity {
+  padding: 15px;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  border-radius: var(--border-radius);
+  background-color: var(--color-primary);
+}
+.infoCity p {
+  background-color: var(--color-primary);
+}
+
+.infoCityIcon {
+  width: 32px;
+  background-color: var(--color-primary);
+}
