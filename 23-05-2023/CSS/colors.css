@@ -1,0 +1,34 @@
+:root {
+  --color-primary: #d4af37;
+  --color-secondary: #d68d2f;
+  --color-tertiary: #d6391d;
+
+  --color-white: #ffffff;
+  --color-gray-100: #a3a3a3;
+  --color-gray-200: #4e4e4e;
+  --color-gray-300: #303030;
+  --color-gray-400: #292929;
+  --color-black: #1a1a1a;
+
+  --color-danger: rgba(255, 65, 65);
+  --color-success: rgb(0, 190, 79);
+  --color-warning: rgb(226, 109, 0);
+}
+
+body {
+  background-image: linear-gradient(
+    35deg,
+    var(--color-black),
+    var(--color-gray-400)
+  );
+}
+
+.bg_success {
+  background-color: var(--color-success) !important;
+}
+.bg_warning {
+  background-color: var(--color-warning) !important;
+}
+.bg_danger {
+  background-color: var(--color-danger) !important;
+}
