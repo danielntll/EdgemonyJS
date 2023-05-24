@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #828af5;
+  --color-primary-light: rgba(181, 187, 245, 0.2);
+  --color-secondary: #78c5fa;
+  --color-secondary-light: rgba(173, 222, 250, 0.2);
+  --color-tertiary: #b678fa;
+  --color-tertiary-light: rgba(208, 173, 250, 0.2);
+
+  --color-light: #eaedfa;
+  --color-dark: #21233b;
+  --color-gray-200: #afafaf;
+}
+
+body {
+  color: var(--color-light);
+}

@@ -1,0 +1,26 @@
+.btn-addTodo {
+  margin-top: 40px;
+  padding: 5px 45px 5px 45px;
+  border-radius: var(--border-radius);
+  border: 0;
+  cursor: pointer;
+  width: 300px;
+  background-color: var(--color-light);
+  cursor: pointer;
+}
+
+.btn-todo {
+  width: 100%;
+  border-radius: 5px;
+  border-width: 0;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.btn-open-add {
+  margin: 10px;
+  padding: 5px 45px 5px 45px;
+  border-radius: var(--border-radius);
+  border: 0;
+  cursor: pointer;
+}
