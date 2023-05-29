@@ -1,0 +1,58 @@
+.headerSection {
+  /* height: 150px; */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: var(--padding); */
+  /* mettere width:100% */
+  /* Eliminare il resto */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.headerSection-content {
+  padding: var(--padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headerSection-content h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.headerSection-contentSelection {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerSection-button-container {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.headerSection-button {
+  cursor: pointer;
+}
+
+.headerSection-button-container h4 {
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.headerSection-button-selected {
+  height: 5px;
+}
+.headerSection-button-selected-active {
+  height: 5px;
+  background-color: var(--color-primary);
+  border-radius: 5px 5px 0 0;
+}

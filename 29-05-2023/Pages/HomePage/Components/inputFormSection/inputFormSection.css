@@ -1,0 +1,93 @@
+.inputFormSection {
+  width: 80%;
+  right: 0;
+  top: 110px;
+  position: absolute;
+  background-color: var(--color-white);
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #c1c1c1;
+}
+.inputFormSection_content {
+  padding: var(--padding);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.inputFormAvatarContainer {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+.inputFormAvatarContainer img {
+  width: 58px;
+  height: 58px;
+}
+
+.inputForm_container {
+  width: 100%;
+  margin-left: var(--padding);
+  /* background-color: yellow; */
+}
+.inputForm_container_shareToContainer {
+}
+.inputForm_container_shareToContainer_shareTo {
+  border-radius: 20px;
+  padding: 2px 5px;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.inputForm_container_textArea_container {
+  width: 92%;
+  margin-top: 10px;
+}
+.inputForm_container_textArea {
+  width: 100%;
+  padding: var(--padding);
+  border: 0;
+  resize: none;
+}
+.inputForm_container_buttons {
+  padding-top: 10px;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #c1c1c1;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputForm_container_buttons_first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputFormButton {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.inputFormButton img {
+  width: 20px;
+  height: 20px;
+  filter: var(--filter-primary);
+}
+
+.inputForm_container_buttons_submit {
+}
+
+.inputForm_submit_btn {
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border: 0;
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: bold;
+}
