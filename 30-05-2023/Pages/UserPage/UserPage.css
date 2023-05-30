@@ -1,0 +1,97 @@
+.userPage {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  z-index: 100;
+}
+
+.userPage_header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  height: 500px;
+}
+
+.userPage_header_backbutton {
+  display: flex;
+  flex-direction: row;
+}
+
+.userPage_header_backbutton_btn {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease-in-out;
+}
+
+.userPage_header_backbutton_btn:hover {
+  background-color: #c1c1c1;
+}
+
+.userPage_header_backbutton_btn img {
+  width: 25px;
+  height: 25px;
+}
+
+.userPage_header_backbutton_userInfo {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.userPage_header_backbutton_userInfo span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.userPage_header_backbutton_userInfo span h3 {
+  margin: 0;
+  margin-right: 10px;
+}
+.userPage_header_backbutton_userInfo span img {
+  width: 24px;
+  height: 24px;
+}
+.userPage_header_backbutton_userInfo p {
+  margin: 0;
+  color: #525252;
+}
+
+.userPage_header_user {
+  height: 200px;
+  background-image: url("https://picsum.photos/seed/picsum/2000/1000");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.userPage_header_user_avatar_section {
+  bottom: -50px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.userPage_avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #525252;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin-left: 16px;
+}
+
+.userPage_header_user_actions {
+  width: 300px;
+  height: 50px;
+  background-color: aqua;
+}

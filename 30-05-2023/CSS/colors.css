@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #1da1f2;
+  --color-primary-light: #98d1f5;
+
+  --color-white: #ffffff;
+  --filter-primary: invert(52%) sepia(50%) saturate(2214%) hue-rotate(176deg)
+    brightness(96%) contrast(98%);
+}
+
+.filter_primary {
+  filter: var(--filter-primary);
+}
