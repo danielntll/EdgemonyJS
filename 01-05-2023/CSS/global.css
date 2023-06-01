@@ -1,0 +1,11 @@
+@import "./normalize.css";
+@import "./colors.css";
+@import "./fonts.css";
+
+/* COMPONENTS */
+@import "../Components/navbar/navbar.css";
+@import "../Components/notification/notification.css";
+
+:root {
+  --padding: 16px;
+}
